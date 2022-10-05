@@ -5,9 +5,13 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='header'>
-            <Link to='/home' >Home</Link>
-            <Link to='/about' >About</Link>
-            <Link to='/products' >products</Link>
+            <nav>
+                <Link to='/home' >Home</Link>
+                <Link to='/about' >About</Link>
+                <Link to='/friends' >Friends</Link>
+                <Link to='/products' >products</Link>
+            </nav>
+            <h3>Reacting with React Router</h3>
         </div>
     );
 };

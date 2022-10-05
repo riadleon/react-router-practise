@@ -4,6 +4,6 @@
     padding: 2px 5px;
     color: black;
 }
-.header :hover{
+.header a:hover{
     background-color: lightblue;
 }
