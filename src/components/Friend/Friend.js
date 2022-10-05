@@ -10,7 +10,7 @@ const Friend = ({ friend }) => {
             <h3>Name: {name}</h3>
             <p> {email} </p>
             <p> {phone} </p>
-            <p> <Link to={` /friends/${id} `}>{website}</Link>  </p>
+            <p> <Link to={`/friend/${id} `}>{website}</Link>  </p>
         </div>
     );
 };
