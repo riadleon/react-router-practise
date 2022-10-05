@@ -9,6 +9,7 @@ const Header = () => {
                 <Link to='/home' >Home</Link>
                 <Link to='/about' >About</Link>
                 <Link to='/friends' >Friends</Link>
+                <Link to='/post' >Posts</Link>
                 <Link to='/products' >products</Link>
             </nav>
             <h3>Reacting with React Router</h3>
